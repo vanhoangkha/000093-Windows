@@ -1,0 +1,85 @@
+[
+{
+	"uri": "/4-access-to-amazon-workspaces/4.1-access-workspaces-browser/",
+	"title": "Access WorkSpaces - Browser",
+	"tags": [],
+	"description": "",
+	"content": "Access To Amazon WorkSpaces Via Browser   Copy and paste the provided link to the browser. Then, save the \u0026ldquo;Registration Code\u0026rdquo;  Choose the Web Access =\u0026gt; Recommended to open in Private Browser mode  This is the expected error  We will need to update the Directory to fix this =\u0026gt; Access Control Options =\u0026gt; Check Web Access =\u0026gt; Scroll Down =\u0026gt; Update and Exit  Then, we try again and we will see the error is fixed. Enter user name and password  This is the Amazon WorkSpaces  Internet Access on WorkSpaces  File Explorer on WorkSpaces  Fully working Microsoft Office Suite   "
+},
+{
+	"uri": "/1-introduce/",
+	"title": "Introduction",
+	"tags": [],
+	"description": "",
+	"content": "Introduce To Amazon Workspaces What is AWS Workspace: Amazon Workspaces is a virtual technology that allow us to implement, to deploy and to manage the client operating system such as: Windows 10 / 11, Mac OS, Ubuntu. We can fully implement the AWS Workspace completely on the AWS cloud environment without installing anything on our system.\nHowever, to be able to connect to the Amazon Workspace environment, we have 2 ways\n To install the Amazon Workspace client To use on any browser with the provided link to connect    Infrastructure Explanation If we had already done all of my recommendation labs; hence, we will familiar with this infrastructure. I am not going to repeat what we have done about this infrastructure except the new Amazon Workspace\nTo be quick, End-users will use either browser or Amazon workspace client to perform a secure connection to the Amazon Workspace\n"
+},
+{
+	"uri": "/3-deploy-amazon-workspaces/3.1-prepare-to-deploy-wokspaces/",
+	"title": "Prepare To Deploy Amazon WorkSpaces",
+	"tags": [],
+	"description": "",
+	"content": "Prepare To Deploy Amazon WorkSpaces   At the AWS Management Console, search for Workspaces  This is the Amazon Workspaces Management Console  Click the Getting start now  Click Cancel, you might jump to the Amazon Workspaces Management Console  Get back to the AWS Directory Service Management Console, then choose the created directory, note down the subnet id  Then, go to the Amazon WorkSpaces Management Console =\u0026gt; Choose the Directory menu on the left side.  Choose the prepared Directory Action Register    Wait for the Registered turn into YES   "
+},
+{
+	"uri": "/",
+	"title": "Windows On AWS - Amazon WorkSpaces",
+	"tags": [],
+	"description": "",
+	"content": "AWS Workspace To adapt the modern-working, you, as a System Administrator of a company has been tasked to research and to experience the state-of-the-art of the cloud technology - AWS Workspace.\nIn this lab, we will examine and experience AWS Workspace environment\n Getting to know with AWS:\n Creating Your AWS Account Setting up Budget for your Cloud Journey VPC - Virtual Private Cloud - Introducing and Getting to know EC2 - Introducing and Getting to know   If you have not ready for the deep-dive into AWS Services - Windows On AWS. Please refer to this link for Basic Windows On AWS\nOnce you have done all of those labs, i understand that you are ready to deep dive into the cloud. Let\u0026rsquo;s get your hand dirty !\nContents  Introduction Preparation Deploy Amazon WorkSpaces Access To Amazon WorkSpaces Clean Up Services  "
+},
+{
+	"uri": "/4-access-to-amazon-workspaces/4.2-access-worlspaces-client/",
+	"title": "Access WorkSpaces - WorkSpaces Client",
+	"tags": [],
+	"description": "",
+	"content": "Access To Amazon WorkSpaces Via Amazon WorkSpaces Client   Download the client to the local computer and then install it  This is the Amazon WorkSpaces Client UI (User Interface)  We will try to log-on with the user that created directly from Active Directory Users and Computers  As can be seen, Licenced Microsoft Excel with full of function and templates such as: invoice, charts, schedule and more than enough to use.   "
+},
+{
+	"uri": "/3-deploy-amazon-workspaces/3.2-deploy-amazon-workspaces/",
+	"title": "Deploy Amazon WorkSpaces",
+	"tags": [],
+	"description": "",
+	"content": "Deploy Amazon WorkSpaces   Left side menu =\u0026gt; Workspaces  Do follow the step-by-step from Amazon WorkSpaces Management Console  Create users directly from WorkSpaces Management Console  After created user from WorkSpaces Management Console, we come to the AD-Manager EC2 to active the user account, do for all of the accounts:  Reset the user password: right click to the choosen user =\u0026gt; Reset Password Enable the user account\n   Create user account from Active Directory Users and Computers  Right click to the users =\u0026gt; new =\u0026gt; user Full fill all required information, included password Un-checked the User must change password at next log-on Check password never expires Finished    Things to remember:  user account which created from WorkSpaces Management Console need to do Password Reset, then Enable the user account user account which created from the Active Directory Users and Computers DO NOT NEED to do Password Reset and Enable account For those users which are created from the AD-Manager, you need to add email for the users so that can add them to the WorkSpaces environtment. If not, WorkSpaces will prompt error \u0026ldquo;User need to have an email address \u0026hellip;.\u0026rdquo;   Show all of users we had and add them to the WorkSpaces environment, then click Next  To pay attention that Amazon WorkSpaces are currently provides 2 differences protocols:   PCoIP: if you want to use Amazon WorkSpaces on tablets (iPad / Android) WSP - WorkSpace Streaming Protocol: for higher loss/latancy tolerance For more information about Amazon WorkSpaces protocol, please refer to this link: Amazon WorkSpaces Protocol   There are so many choices, but let choose the Standard Windows 10 with Office to experience the most basic needs for an office employee: Windows and Office Suite  We can also deploy Auto Stop the WorkSpaces to save the cost. Let\u0026rsquo;s say, a normal office employee working 8hrs/day. Then, we will set the time for it.  After done setting up the time =\u0026gt; Scroll DOWN =\u0026gt; NEXT    After review our setup, click Launch WorkSpaces. It takes 20 minutes for workspaces to be availabled   "
+},
+{
+	"uri": "/2-prerequiste/",
+	"title": "Preparation",
+	"tags": [],
+	"description": "",
+	"content": "Preparation  1 VPC 2 Private Subnets 2 Public Subnets AWS Directory Service: Deploy an AWS Managed Directory Service NAT Gateway Internet Gateway 1 EC2 - Bastion host  Public Subnet Assigned Public IP: Enabled IAM Role: Attached Domain: Joined Domain Modify hosts file and Computer name: recommended to do but not required Modify IP: YES   1 EC2 - AD Manager  Private Subnet Assigned Public IP: Disabled IAM Role: Attached Domain: Joined Domain Modify hosts file and Computer name: recommended to do but not required Modify IP: YES    Refer to the architect diagram bellow to double check your preparation for the lab\n"
+},
+{
+	"uri": "/3-deploy-amazon-workspaces/",
+	"title": "Preparation",
+	"tags": [],
+	"description": "",
+	"content": "Deploy Amazon Workspaces  In this section, we will experience how to deploy Amazon WorkSpaces\n"
+},
+{
+	"uri": "/4-access-to-amazon-workspaces/",
+	"title": "Prepare To Deploy Amazon WorkSpaces",
+	"tags": [],
+	"description": "",
+	"content": "Access To Amazon WorkSpaces  In this section, we will learn how to access to Amazon WorkSpaces. There are 2 ways to access into Amazon WorkSpaces\n Access via Browser Access via Amazon WorkSpaces Client =\u0026gt; Need to download the client and then install into the local computer.  "
+},
+{
+	"uri": "/5-clean-up-services/",
+	"title": "Clean Up Services",
+	"tags": [],
+	"description": "",
+	"content": "Clean Up Services   Remove WorkSpaces  Navigate to WorkSpaces Management Console Choose WorkSpaces menu on the left Choose All available WorkSpaces Action =\u0026gt; Remove WorkSpaces =\u0026gt; confirm to remove Pay attention to the WorkSpaces Status =\u0026gt; TERMINATING After 5 minutes, refresh browser and click the reload button to make sure that all of the WorkSpaces have been deleted    Deregister Directory  Delete AWS Managed Directory Service  Delete EC2  Remove the relationship-rule of Security Group:  Delete ALL the rule =\u0026gt; save Do for ALL the available security group    Delete NAT Gateway  Delete Internet Gateway  Delete VPC  Release Elastic IP: If you left the Elastic IP unused, you will be charged\n   "
+},
+{
+	"uri": "/categories/",
+	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+}]
