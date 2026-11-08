@@ -22,7 +22,7 @@ In this lab, we will examine and experience AWS Workspace environment
 4. Prepare To Deploy Amazon WorkSpaces
    - Access WorkSpaces - Browser
    - Access WorkSpaces - WorkSpaces Client
-5. Clean Up Services
+5. Clean up resources
 
 ## Prerequisites
 
